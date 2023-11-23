@@ -1,0 +1,25 @@
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #fff8d3;
+
+    &__cards {
+        width: 48%;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 25px;
+        padding: 25px;
+    }
+
+    &__h6 {
+        font-size: 30px;
+        color: grey;
+    }
+
+    &__p {
+        font-size: 18px;
+        line-height: 48px;
+    }
+}

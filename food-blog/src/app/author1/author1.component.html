@@ -1,0 +1,10 @@
+<div class="containers">
+    <div class="containers__cards">
+        <div *ngFor="let auth of authors">
+            <div>
+                <h6 class="containers__h6" appAuthorheading> {{auth.name}}</h6>
+                <p class="containers__p">{{auth.text}}</p>
+            </div>
+        </div>
+    </div>
+</div>

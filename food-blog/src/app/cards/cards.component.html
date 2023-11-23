@@ -1,0 +1,10 @@
+<div class="cards">
+    <div class="card" style="width: 18rem;" *ngFor="let card of foodCard">
+        <img class="card-img-top" src='{{card.link}}' alt=" Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{card.title}}</h5>
+            <p class="card-text">{{card.text}}</p>
+            <a routerLink={{card.goto}} class="btn btn-primary">Read More</a>
+        </div>
+    </div>
+</div>
